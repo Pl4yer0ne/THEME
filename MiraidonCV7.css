@@ -96,11 +96,3 @@ background-color: rgba(255, 255, 255, 0.02);
 .visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017:focus-within {
     box-shadow: none;
 }
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/cutoffbugs.css?token=GHSAT0AAAAAADBMMDFGL7EXCUKUZKNQXYEIZ7JT3AA');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/usernamefix.css?token=GHSAT0AAAAAADBMMDFHFX2N553AW3SBNESOZ7JT3F');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/embedrounding.css?token=GHSAT0AAAAAADBMMDFHHTDWZGDEMKH5A2YAZ7JT35A');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/shiggyloading.css?token=GHSAT0AAAAAADBMMDFGRPKPBM6K3VFZKOFQZ7JT5BQ');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/serverscrollingfix.css?token=GHSAT0AAAAAADBMMDFGTPB6YQYRXVFVFYYKZ7JT7BQ');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/roundservericon.css?token=GHSAT0AAAAAADBMMDFHMBTZTAW3ERQRJ5PIZ7JUBGQ');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/bottomleftuserinterface.css?token=GHSAT0AAAAAADBMMDFHYOEMIWUPJHB2HIKWZ7JUCIA');
-@import url('https://raw.githubusercontent.com/Pl4yer0ne/QUICKCSS/refs/heads/main/chatboxfix.css?token=GHSAT0AAAAAADBMMDFHCVFFSPVDTJOSK2QEZ7JUD2A');
