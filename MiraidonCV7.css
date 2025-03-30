@@ -93,3 +93,6 @@
 .mentioned__5126c.cozyMessage__5126c.message__5126c {
 background-color: rgba(255, 255, 255, 0.02);
 }
+.visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017:focus-within {
+    box-shadow: none;
+}
