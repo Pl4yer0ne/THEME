@@ -13,11 +13,11 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #9adeef;
-  --hover-color: #e28083;
+  --main-color: #66aacc;
+  --hover-color: #447799;
   --success-color: #43b581;
   --danger-color: #982929;
-  /* STATUS COLORS */
+    /* STATUS COLORS */
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
