@@ -96,3 +96,6 @@ background-color: rgba(255, 255, 255, 0.02);
 .visual-refresh:not(.visual-refresh-chat-input) .channelTextArea__74017:focus-within {
     box-shadow: none;
 }
+.visual-refresh .container__0be77 {
+   background-color: rgba(0, 0, 0, 0.4);
+}
