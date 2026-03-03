@@ -25,7 +25,7 @@
     --offline-color: #808080;
     /* APP BACKGROUND */
     --background-shading-percent: 20%;
-    --background-image: url(https://files.catbox.moe/o8gdwe.webp);
+    --background-image: url(https://i.imgur.com/gtRbE8I.png);
     --background-attachment: fixed;
     --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
     /* USER POPOUT BACKGROUND */
