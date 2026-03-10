@@ -1,0 +1,199 @@
+/**
+ * @name Clearvision T1 Pyrite Mashup
+ * @author ClearVision Team, Eight_P (T1), LeafyLuigi (Pyrite), Malasangre#4444, | |DivineXST (Mashup) | | 
+ * @version 0.0.1
+ * @description Highly customizable theme for BetterDiscord - Mashup of ClearVision, T1, and Pyrite themes. | ClearVision: https://clearvision.github.io | T1: https://github.com/Eight-P/BD.8P | Pyrite: https://leafyluigi.github.io/discord-themes
+ */
+/* IMPORT CSS */
+@import url("https://tiredmala.github.io/Roundmoled/main.css");
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url(https://eight-p.github.io/BD.8P/Themes/T1/dist/T1.css);
+@import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+/* SETTINGS */
+:root {
+/*MAIN BACKGROUND T 1 */
+--background-app: url(https://wallpapercave.com/wp/wp8157453.jpg);
+--background-server: url(none);
+--backgroundBlur-app: 0 ;
+--backgroundBlur-server: 0 ;
+--backgroundBrightness-app: 200 ;
+--backgroundBrightness-server: 100 ;
+
+/*Discord Recolor Variables*/
+	--settingsicons:		1;				/*	Use Settings Icons in User Settings: 1 = yes, 0 = no							*/
+	--font:				"UnifrakturMaguntia", "UnifrakturMaguntia";		/*	General Font												*/
+	
+	--accentcolor: 			255, 0, 106, 0.438;			/*	Blurple			-	default:	88,101,242		-	hex:	#5865f2		*/
+	--accentcolor2: 		255, 0, 106, 0.438;			/*	Boostpink		-	default:	255,115,250		-	hex:	#ff73fa		*/
+	--linkcolor: 			255, 0, 106, 0.438;			/*	Link Color		-	default:	0,176,244		-	hex:	#00b0f4		*/
+	--mentioncolor: 		250,166,26;			/*	Highlight Color		-	default:	250,166,26		-	hex:	#faa61a		*/
+	--successcolor: 		255, 0, 106, 0.438;			/*	Success Color		-	default:	59,165,92		-	hex:	#3ba55c		*/
+	--warningcolor: 		255, 0, 106, 0.438;			/*	Warning Color		-	default:	250,166,26		-	hex:	#faa61a		*/
+	--dangercolor:  		255, 0, 106, 0.438;			/*	Danger Color		-	default:	237,66,69		-	hex:	#ed4245		*/
+	
+	--framecolor:  			151,151,159,0.121;		/*	App Frame Color		-	default:	151,151,159,0.121	-	hex:	#97979f1f	*/
+	
+	--textbrightest: 		255,255,255;			/*	Text Color 1		-	default:	255,255,255		-	hex:	#ffffff		*/
+	--textbrighter: 		222,222,222;			/*	Text Color 2		-	default:	220,221,222		-	hex:	#dcddde		*/
+	--textbright: 			185,185,185;			/*	Text Color 3		-	default:	185,187,190		-	hex:	#b9bbbe		*/
+	--textdark: 			140,140,140;			/*	Text Color 4		-	default:	142,146,151		-	hex:	#8e9297		*/
+	--textdarker: 			115,115,115;			/*	Text Color 5		-	default:	114,118,125		-	hex:	#72767d		*/
+	--textdarkest: 			80,80,80;			/*	Text Color 6		-	default:	79,84,92		-	hex:	#4f545c		*/
+	
+	--backgroundcode: 		255, 0, 106, 0.438;			/*	Background Code		-	default:	60,62,79		-	hex:	#3c3e4f		*/
+	--backgroundaccent: 		255, 0, 106, 0.438;			/*	Background Accent	-	default:	64,68,75		-	hex:	#40444b		*/
+	--backgroundprimary: 		255, 0, 106, 0.438;			/*	Background 1		-	default:	54,57,63		-	hex:	#36393f		*/
+	--backgroundsecondary: 		255, 0, 106, 0.438;			/*	Background 2		-	default:	47,49,54		-	hex:	#2f3136		*/
+	--backgroundsecondaryalt: 	255, 0, 106, 0.438;			/*	Background 3		-	default:	41,43,47		-	hex:	#292b2f		*/
+	--backgroundtertiary: 		255, 0, 106, 0.438;			/*	Background 4		-	default:	32,34,37		-	hex:	#202225		*/
+	--backgroundfloating: 		255, 0, 106, 0.438;				/*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c		*/
+
+
+
+/* PYRITE VARIABLES, these control the voice speaking ring around pfps and all ect buttons, such as pinned messages, clips,members,and alerts */
+  --primary-color: rgba(255, 0, 106, 0.438); /* † */
+  --secondary-color: rgba(255, 0, 106, 0.438); /* † */
+  --hover-color: rgba(255, 0, 106, 0.438); /* † */
+  --tooltip-color: rgba(255, 0, 106, 0.438); /* † */
+
+
+
+
+
+  /* ACCENT COLORS */
+  --main-color: rgba(255, 0, 106, 0.438); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: rgba(64, 255, 166, 0.178); /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: rgba(0, 230, 118, 0.5); /* positive accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: rgba(196, 28, 59, 0.5); /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  /* STATUS COLORS */
+  --online-color: rgba(0, 230, 118, 0.5); /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: rgba(255, 109, 0, 0.5); /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: rgba(255, 23, 68, 0.5); /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: rgba(232, 51, 111, 0.5); /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: rgba(0, 188, 212, 0.5); /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
+ 
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1)); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-popout-position: var(--background-position); /* user popout position [default: var(--background-position)] */
+  --user-popout-size: var(--background-size); /* user popout size (px) [default: var(--background-size)] */
+  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+  --user-popout-filter: var(--background-filter); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-modal-position: var(--background-position); /* user modal position [default: var(--background-position)] */
+  --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
+  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+  --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-size: cover; /* home button icon size (px) [default:cover] */
+  /* FONTS */
+  --main-font: "UnifrakturMaguntia", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+  /* CHANNEL COLORS */
+  --channel-normal: var(--main-color); /* channel text color [default: var(--interactive-text-default)] */
+  --channel-muted: var(--main-color); /* muted channel text color [default: var(--interactive-muted)] */
+  --channel-hover: var(--main-color); /* hovered channel text color [default: var(--interactive-text-hover)] */
+  --channel-selected: var(--main-color); /* selected channel text color [default: var(--interactive-text-active)] */
+  --channel-selected-bg: var(--main-color); /* selected channel background [default: var(--main-color)] */
+  --channel-unread: var(--main-color); /* unread channel text color [default: var(--main-color)] */
+  --channel-unread-hover: var(--hover-color); /* unread channel hover color [default: var(--hover-color)] */
+  /* ACCESSIBILITY */
+  --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
+}
+
+/* MAIN BACKGROUND SHADERS   Must Be Dark Theme!!!!*/
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0); /* app background shading color [default: rgba(0, 0, 0, 0.6)] */
+  --card-shading: rgba(0, 0, 0, 0); /* cards background shading color [default: rgba(0, 0, 0, 0.3)] */
+  --popout-shading: rgba(0, 0, 0, 0); /* popouts background shading color [default: rgba(0, 0, 0, 0.7)] */
+  --modal-shading: rgba(0, 0, 0, 0); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
+  --input-shading: rgba(0, 0, 0, 0); /* inputs background shading color [default: rgba(255, 255, 255, 0.05)] */
+  --normal-text: #fbfbfb; /* text color [default: #fbfbfb] */
+  --muted-text: #94949c; /* muted text color [default: #94949c] */
+}
+
+
+
+/* PYRITE AND T1 SHADING OVERRIDES - ALL TRANSPARENT */
+:root {
+  /* PYRITE SHADING VARIABLES */
+  --hsl-middle-shading: rgba(0, 0, 0, 0) !important;
+  --hsl-side-shading: rgba(0, 0, 0, 0) !important;
+  --hsl-header-shading: rgba(0, 0, 0, 0) !important;
+  --hsl-card-background: rgba(0, 0, 0, 0) !important;
+  --card-background: rgba(0, 0, 0, 0) !important;
+  --side-shading: rgba(0, 0, 0, 0) !important;
+  --middle-shading: rgba(0, 0, 0, 0) !important;
+  --header-shading: rgba(0, 0, 0, 0) !important;
+  --hover-filter: rgba(0, 0, 0, 0) !important;
+  --active-filter: rgba(0, 0, 0, 0) !important;
+  
+  /* T1 BACKGROUND MODIFIERS */
+  --background-modifier-hover: rgba(0, 0, 0, 0) !important;
+  --background-modifier-active: rgba(0, 0, 0, 0) !important;
+  --background-modifier-selected: rgba(0, 0, 0, 0) !important;
+  --background-modifier-accent: rgba(0, 0, 0, 0) !important;
+  
+  /* ADDITIONAL TRANSPARENCY FIXES */
+  --elevation-low: rgba(0, 0, 0, 0) !important;
+  --elevation-medium: rgba(0, 0, 0, 0) !important;
+  --elevation-high: rgba(0, 0, 0, 0) !important;
+}
+
+/* REMOVE ALL DARK SHADINGS - TARGET SPECIFIC ELEMENTS */
+/* Chat area and main content */
+[class*="wrapper_"], [class*="container_"], [class*="root_"],
+[class*="sidebar_"], [class*="base_"], [class*="layer_"], 
+[class*="inner_"], [class*="content_"], [class*="chat_"],
+[class*="main_"], [class*="scroller_"] {
+  background: transparent !important;
+}
+
+/* Modals and popouts */
+div[class*="modal_"], div[class*="popout_"], div[class*="tooltip_"],
+div[class*="cardWrapper_"], div[class*="card_"], div[class*="elevationHigh_"],
+div[class*="elevationMedium_"], div[class*="elevationLow_"] {
+  background: transparent !important;
+}
+
+/* Chat specific elements */
+[class*="chatContent_"], [class*="messages_"], [class*="messagesWrapper_"],
+[class*="messageGroupWrapper_"], [class*="message_"], [class*="cozy_"],
+[class*="compact_"], [class*="messageContainer_"] {
+  background: transparent !important;
+}
+
+/* Remove rgba overlays from all elements */
+* {
+  --card-background: transparent !important;
+  --side-shading: transparent !important;
+  --middle-shading: transparent !important;
+  --header-shading: transparent !important;
+  --hover-filter: transparent !important;
+  --active-filter: transparent !important;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
+
+/* Change speaking glow color to main color */
+[class*="avatar_"] [class*="avatarSpeaking_"],
+[class*="avatarContainer_"] [class*="speaking"],
+rect[fill="#5865f2"],
+circle[fill="#5865f2"] {
+  fill: rgba(255, 0, 106, 0.438) !important;
+}
+
+[class*="speaking_"] {
+  box-shadow: 0 0 0 3px rgba(255, 0, 106, 0.438) !important;
+}
+
+
+/*SCRIPT*/
+
