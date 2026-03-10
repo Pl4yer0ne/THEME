@@ -6,7 +6,6 @@
  */
 /* IMPORT CSS */
 @import url("https://tiredmala.github.io/Roundmoled/main.css");
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
 @import url(https://eight-p.github.io/BD.8P/Themes/T1/dist/T1.css);
 @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
@@ -24,7 +23,7 @@
 
 /*Discord Recolor Variables*/
 	--settingsicons:		1;				/*	Use Settings Icons in User Settings: 1 = yes, 0 = no							*/
-	--font:				"UnifrakturMaguntia", "UnifrakturMaguntia";		/*	General Font												*/
+	--font:				;		/*	General Font												*/
 	
 	--accentcolor: 			255, 0, 106, 0.438;			/*	Blurple			-	default:	88,101,242		-	hex:	#5865f2		*/
 	--accentcolor2: 		255, 0, 106, 0.438;			/*	Boostpink		-	default:	255,115,250		-	hex:	#ff73fa		*/
@@ -94,7 +93,7 @@
   --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
   /* FONTS */
-  --main-font: "UnifrakturMaguntia", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --main-font:, "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   /* CHANNEL COLORS */
   --channel-normal: var(--main-color); /* channel text color [default: var(--interactive-text-default)] */
